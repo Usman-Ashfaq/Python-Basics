@@ -5,8 +5,9 @@ while(number>0):
     print("Usman")
 print("Next")
 #use of for loop
+#using the list
 li=["Usman","Ashfaq"]
-for i in li:
+for i in li:                #in keyword check whether i is in range
     print(i)
 for i in range(0,4):
     print("Hello")
