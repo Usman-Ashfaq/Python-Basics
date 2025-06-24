@@ -3,8 +3,8 @@ dict={
     'neigh':"Ali",
     'friend':"Ahmed"
 }
-print(dict)
-print(dict['name'])
+print(dict)               #pritning the whole dictionary
+print(dict['name'])       #accessing using index
 print(dict['neigh'])
 print(dict['friend'])
 print(dict.keys())
