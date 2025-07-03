@@ -2,7 +2,7 @@ def func(*args):
     for i in args:
         print(i)
 
-# Calling the function with multiple arguments
+
 func(1, 2, 3, 4, 5)
 
 def average(*args):
@@ -18,5 +18,5 @@ def fun(**kwargs):
         print(f" hi {val}")
         #print(f"{k}: {val}")
 
-# Calling the function with keyword arguments
+
 fun(name="Alice", age=30, city="New York")
