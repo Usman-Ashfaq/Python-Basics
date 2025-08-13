@@ -8,7 +8,7 @@ def decorator(func):
         print("After function call")
     return wrapper
 
-@decorator             //using the decorator
+@decorator             
 def fun():
     print("Hello Usman")
 
