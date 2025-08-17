@@ -1,5 +1,5 @@
 l=[15,20,2,35,4,65,4]
-#list is mutable
+#list is mutable means changes can be made at any part of code
 print(l)
 print("Appending: ")
 l.append(10)
