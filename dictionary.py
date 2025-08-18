@@ -1,3 +1,6 @@
+#dictionary stores key-value pairs# It is mutable and unordered
+# Keys must be unique and immutable (strings, numbers, tuples
+
 dict={
     'name':"USman",
     'neigh':"Ali",
