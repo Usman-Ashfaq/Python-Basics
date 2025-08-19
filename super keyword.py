@@ -1,3 +1,5 @@
+#super calls the correct functions insteadof calling wwrong one
+
 class A:
     def display(self):
         print("Display from class A")
@@ -13,4 +15,5 @@ c= C()
 c.display()
 #b = B()
 #b.display()  # This will print "Display from class B" followed
+
 
