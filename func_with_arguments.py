@@ -4,7 +4,7 @@ def func(*args):
 
 
 func(1, 2, 3, 4, 5)
-
+#finding the average
 def average(*args):
     sum=0
     for i in args:
@@ -18,5 +18,6 @@ def fun(**kwargs):
         print(f" hi {val}")
         #print(f"{k}: {val}")
 
-
+#passing the arguments
 fun(name="Alice", age=30, city="New York")
+
