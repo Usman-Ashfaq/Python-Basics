@@ -4,6 +4,7 @@ print(l)
 print("Appending: ")
 l.append(10)
 print(l)
+#ascending sorting
 print("Sorting Ascending")
 l.sort()
 print(l)
@@ -20,8 +21,9 @@ print(l.count(4))
 print("copy")
 m=l.copy()
 print(l)
+#inserting element
 print("inserting")
-l.insert(2,899)
+l.insert(2,899) #inserting 899 at index 2
 print(l)
 print("Extend")
 m=[100,400,200]
