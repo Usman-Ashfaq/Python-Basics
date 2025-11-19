@@ -4,14 +4,14 @@ print(l)
 print("Appending: ")
 l.append(10)
 print(l)
-#ascending sorting
+
 print("Sorting Ascending")
 l.sort()
 print(l)
 print("Sorting Descending")
 l.sort(reverse=True)
 print(l)
-print("Reverse")
+print("Reverse")          #reversing
 l.reverse()
 print(l)
 print("returning index")
@@ -29,4 +29,5 @@ print("Extend")
 m=[100,400,200]
 l.extend(m)
 print(l)
+
 
